@@ -1,4 +1,4 @@
-Online Retail Data Analysis with Python
+#Online Retail Data Analysis with Python
 
 Project Overview
 
@@ -8,7 +8,7 @@ The main goal is to understand retail business performance by analyzing sales tr
 
 The project demonstrates practical data analysis skills, including data cleaning, data exploration, statistical analysis, and data visualization.
 
-Business Objectives
+#Business Objectives
 
 - Understand overall sales performance.
 - Identify sales trends over time.
@@ -18,7 +18,7 @@ Business Objectives
 - Investigate cancelled orders and returned items.
 - Generate actionable business insights.
 
-Tools and Technologies
+#Tools and Technologies
 
 - Python – Main programming language.
 - Pandas – Data manipulation and cleaning.
@@ -26,25 +26,25 @@ Tools and Technologies
 - Matplotlib – Data visualization.
 - Jupyter Notebook – Interactive data analysis.
 
-Dataset Description
+#Dataset Description
 
 The dataset contains online retail transaction records.
 
 It includes the following columns:
 
-| Column | Description |
-|---|---|
-| InvoiceNo | Transaction invoice number |
-| StockCode | Product identification code |
-| Description | Product description |
-| Quantity | Number of products purchased |
-| InvoiceDate | Date and time of transaction |
-| UnitPrice | Price per product |
-| CustomerID | Customer identification number |
-| Country | Customer's country |
+ Column  ---- Description 
+
+InvoiceNo ----   Transaction invoice number 
+StockCode ----   Product identification code 
+Description ---- Product description 
+Quantity    ---- Number of products purchased 
+InvoiceDate ---- Date and time of transaction 
+UnitPrice   ---- Price per product 
+CustomerID  ---- Customer identification number 
+Country     ---- Customer's country 
 
 
-Dataset Access and Setup
+#Dataset Access and Setup
 
 The Online Retail dataset is used for this project. The cleaned dataset is provided in compressed ZIP format in the repository to reduce file size.
 
@@ -69,7 +69,7 @@ Open the Jupyter Notebook and update the dataset path if necessary.
 
 Note : The original dataset can be obtained from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail).
 
-Project Workflow
+#Project Workflow
 
 1. Data Understanding
    - Imported and explored the dataset.
@@ -99,7 +99,7 @@ Project Workflow
    - Examined customer and product performance.
    - Developed business recommendations.
 
-Repository Structure
+#Repository Structure
 
 
 online-retail-python-analysis/
@@ -113,7 +113,7 @@ online-retail-python-analysis/
 ├── README.md
 └── requirements.txt
 
-Installation and Usage
+#Installation and Usage
 
 1. Clone the repository
 
@@ -130,17 +130,17 @@ pip install -r requirements.txt
 
 4. Open the Jupyter Notebook
 
-jupyter notebook
+#jupyter notebook
 
 Open `online_retail_analysis.ipynb` to explore the analysis.
 
-Key Findings
+#Key Findings
 
 This project explores retail revenue, customer purchasing behavior, product performance, geographical sales patterns, and transaction trends.
 
 Detailed findings and business recommendations are presented in the Jupyter Notebook.
 
-Skills Demonstrated
+#Skills Demonstrated
 
 - Python Programming
 - Data Cleaning and Preprocessing
@@ -151,15 +151,15 @@ Skills Demonstrated
 - Business Problem Solving
 - Analytical Thinking
 
-Future Improvements
+#Future Improvements
 
 - Perform deeper SQL-based business analysis.
 - Develop an interactive Power BI dashboard.
 - Build predictive models for sales forecasting.
 
 
-Author: Mihiret Getahun
+#Author: Mihiret Getahun
 
-Project: Online Retail Python Data Analysis
+#Project: Online Retail Python Data Analysis
 
-Focus: Data Analytics | Python | Business Insights
+#Focus: Data Analytics | Python | Business Insights
